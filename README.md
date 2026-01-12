@@ -4,24 +4,54 @@
 
 * ReCFA: Resillent Control-Flow Attestation, [code](https://github.com/suncongxd/ReCFA)
 * Usage of Intel Memory Protection Keys (MPK) to protect Nginx Private Keys, [code](https://github.com/ChristopherHammond13/Dissertation-Public)
+* No Need to Hide: Protecting Safe Regions on Commodity Hardware, [code](https://github.com/vusec/memsentry)
+* eXecutable-Only-Memory-Switch (XOM-Switch): Hiding your code from advanced code reuse attacks in one shot, [code](https://github.com/intel/xom-switch)
+* ERIM: Secure, Efficient In-Process Memory Isolation using Intel MPK, [code](https://gitlab.mpi-sws.org/vahldiek/erim)
+* Hodor: Intra-Process Isolation for High-Throughput Data Plane Libraries, [code](https://github.com/hedayati/hodor)
+* libmpk: Software Abstraction for Intel Memory Protection Keys (Intel MPK), [code](https://github.com/sslab-gatech/libmpk)
+* ConfLLVM: A compiler for enforcing data confidentiality in low-level code, [code](https://github.com/TrustedCloud/ConfLLVM)
+* PKU pitfalls: Attacks on PKU-based memory isolation systems, [code](https://github.com/VolSec/pku-pitfalls)
 * Donky: Efficient In-Process Isolation for RISC-V and x86, [code](https://github.com/isec-tugraz/Donky)
 * Jenny: Securing syscalls for PKU-based memory isolation systems, [code](https://github.com/isec-tugraz/Jenny)
-* Secure and Efficient In-process Monitor (and Library) Protection with Intel MPK, [code](https://github.com/ssrg-vt/MonGuard)
+* You Shall Not (by)Pass! Practical, Secure, and Fast PKU-based Sandboxing, [code](https://github.com/ku-leuven-msec/The-Cerberus-Project)
+* Multi-Variant Execution
+  * Secure and Efficient In-process Monitor (and Library) Protection with Intel MPK, [code](https://github.com/ssrg-vt/MonGuard)
+  * sMVX: Multi-Variant Execution on Selected Code Paths, [code](https://github.com/ssrg-vt/sMVX/)
 * MPKAlloc: Efficient Heap Meta-Data Integrity Through Hardware Memory Protection Keys, [code](https://github.com/BUseclab/mpkalloc)
 * VIP: Safeguard Value Invariant Property for Thwarting Critical Memory Corruption Attacks, [code](https://github.com/cosmoss-jigu/vip)
 * Simplex: Repurposing Intel Memory Protection Extensions for Secure Storage, [code](https://github.com/bingseclab/simplex)
 * Enclosures: language-based restriction of untrusted libraries, [code](https://github.com/aghosn/enclosures)
 * CAPACITY: Cryptographically-Authenticated Intra-process Isolation on ARM, [code](https://github.com/sslab-skku/capacity)
+* Put your memory in order: Efficient domain-based memory isolation for WASM applications, [code](https://github.com/PKU-ASAL/PKUWA)
+* Auditing Frameworks Need Resource Isolation: A Systematic Study on the Super Producer Threat to System Auditing and Its Mitigation, [code](https://github.com/nodropforsecurity/nodrop)
+* Endokernel: A Thread Safe Monitor for Lightweight Subprocess Isolation, [code](https://github.com/endokernel/endokernel-paper-ver)
+* Toast: A Heterogeneous Memory Management System, [code](https://github.com/TUM-DSE/Toast)
+* Secure Rewind & Discard of Isolated Domains, [code](https://github.com/EricssonResearch/secure-rewind-and-discard)
+* Serverless
+  * Faastlane: Accelerating Function-as-a-Service Workflows, [code](https://github.com/csl-iisc/faastlane)
 * Mixed-Language Security
   * TRust: A Compilation Framework for In-process Isolation to Protect Safe Rust against Untrusted Code, [code](https://github.com/seccompgeek/trust23-metsafe24)
   * METASAFE: Compiling for Protecting Smart Pointer Metadata to Ensure Safe Rust Integrity, [code](https://github.com/seccompgeek/trust23-metsafe24)
   * Secure Rewind & Discard of Isolated Domains for Foreign Function Interface in Rust, [code](https://github.com/EricssonResearch/sdradrustffi)
   * PKRU-Safe: Automatically Locking Down the Heap Between Safe and Unsafe Languages, [code](https://github.com/securesystemslab/PKRU-Safe)
   * Keeping Safe Rust Safe with Galeed, [code](https://github.com/mit-ll/galeed)
+* Dedicated Storage & File Systems
+  * Persistent Memory
+    * TENET: Memory Safe and Fault Tolerant Persistent Transactional Memory, [code](https://github.com/cosmoss-jigu/TENET)
+  * File Systems
+    * ctFS: Replacing file indexing with hardware memory translation through contiguous file allocation for persistent memory, [code](https://github.com/robinlee09201/ctFS)
+  * Userspace Storage
+    * Rearchitecting in-memory object stores for low latency, [code](https://github.com/danyangz/lightning)
+ 
 ## Intra-kernel isolation
 
-* Fast Intra-Kernel Isolation and Security with IskiOS, [code](https://github.com/URSec/iskios)
-* HAKC, [code](https://github.com/mit-ll/HAKC)
+* Basic Data/Metadata Protection
+  * Fast Intra-Kernel Isolation and Security with IskiOS, [code](https://github.com/URSec/iskios)
+* Kernel compartmentalization
+  * Preventing Kernel Hacks with HAKCs, [code](https://github.com/mit-ll/HAKC)
+  * BULKHEAD: Secure, Scalable, and Efficient Kernel Compartmentalization with PKS, [code](https://github.com/gyg128/BULKHEAD/)
+* Kernel Extension & eBPF Security
+  * MOAT: Towards Safe BPF Kernel Extension, [code](https://github.com/jwnhy/MOAT-Open)
 
 ## Intra-enclave isolation
 
