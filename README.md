@@ -3,6 +3,10 @@
 ## Intra-process isolation
 
 * ReCFA: Resillent Control-Flow Attestation, [code](https://github.com/suncongxd/ReCFA)
+* Usage of Intel Memory Protection Keys (MPK) to protect Nginx Private Keys, [code](https://github.com/ChristopherHammond13/Dissertation-Public)
+* Donky: Efficient In-Process Isolation for RISC-V and x86, [code](https://github.com/isec-tugraz/Donky)
+* Jenny: Securing syscalls for PKU-based memory isolation systems, [code](https://github.com/isec-tugraz/Jenny)
+* Secure and Efficient In-process Monitor (and Library) Protection with Intel MPK, [code](https://github.com/ssrg-vt/MonGuard)
 * MPKAlloc: Efficient Heap Meta-Data Integrity Through Hardware Memory Protection Keys, [code](https://github.com/BUseclab/mpkalloc)
 * VIP: Safeguard Value Invariant Property for Thwarting Critical Memory Corruption Attacks, [code](https://github.com/cosmoss-jigu/vip)
 * Simplex: Repurposing Intel Memory Protection Extensions for Secure Storage, [code](https://github.com/bingseclab/simplex)
@@ -17,8 +21,11 @@
 ## Intra-kernel isolation
 
 * Fast Intra-Kernel Isolation and Security with IskiOS, [code](https://github.com/URSec/iskios)
+* HAKC, [code](https://github.com/mit-ll/HAKC)
 
 ## Intra-enclave isolation
+
+* SGXJail: Defeating Enclave Malware via Confinement, [code](https://github.com/isec-tugraz/sgxjail)
 
 ## Intra-unikernel isolation
 
