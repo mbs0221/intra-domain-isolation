@@ -38,7 +38,8 @@ AArch64 Applications with Privilege Inversion, [code](https://github.com/URSec/I
     * Going beyond the Limits of SFI: Flexible and Secure Hardware-Assisted In-Process Isolation with HFI, [code](https://github.com/PLSysSec/hfi-root)
 * Auditing Frameworks Need Resource Isolation: A Systematic Study on the Super Producer Threat to System Auditing and Its Mitigation, [code](https://github.com/nodropforsecurity/nodrop)
 * Userspace OS Subsystem
-  * Endokernel: A Thread Safe Monitor for Lightweight Subprocess Isolation, [code](https://github.com/endokernel/endokernel-paper-ver)  * 
+  * Endokernel: A Thread Safe Monitor for Lightweight Subprocess Isolation, [code](https://github.com/endokernel/endokernel-paper-ver)
+  * Pegasus: Transparent and Unified Kernel-Bypass Networking for Fast Local and Remote Communication, [code](https://github.com/rssys/pegasus-artifact)
 * Toast: A Heterogeneous Memory Management System, [code](https://github.com/TUM-DSE/Toast)
 * Fault Tolerance
   * Secure Rewind & Discard of Isolated Domains, [code](https://github.com/EricssonResearch/secure-rewind-and-discard)
