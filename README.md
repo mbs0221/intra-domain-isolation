@@ -24,6 +24,7 @@
   * Secure and Efficient In-process Monitor (and Library) Protection with Intel MPK, [code](https://github.com/ssrg-vt/MonGuard)
   * sMVX: Multi-Variant Execution on Selected Code Paths, [code](https://github.com/ssrg-vt/sMVX/)
   * Secure and Efficient Application Monitoring and Replication without Kernel Patches, [code](https://github.com/ReMon-MVEE/ReMon)
+  * Sharing is caring: secure and efficient shared memory support for MVEEs, [code](https://github.com/ReMon-MVEE/ReMon), [zenodo](https://doi.org/10.5281/zenodo.6360039)
 * MPKAlloc: Efficient Heap Meta-Data Integrity Through Hardware Memory Protection Keys, [code](https://github.com/BUseclab/mpkalloc)
 * VIP: Safeguard Value Invariant Property for Thwarting Critical Memory Corruption Attacks, [code](https://github.com/cosmoss-jigu/vip)
 * Simplex: Repurposing Intel Memory Protection Extensions for Secure Storage, [code](https://github.com/bingseclab/simplex)
