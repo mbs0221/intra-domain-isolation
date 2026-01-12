@@ -2,10 +2,11 @@
 
 ## Intra-process isolation
 
-* ReCFA: Resillent Control-Flow Attestation, [code](https://github.com/suncongxd/ReCFA)
+* Control-Flow Attestation
+  * ReCFA: Resillent Control-Flow Attestation, [code](https://github.com/suncongxd/ReCFA)
 * Usage of Intel Memory Protection Keys (MPK) to protect Nginx Private Keys, [code](https://github.com/ChristopherHammond13/Dissertation-Public)
 * No Need to Hide: Protecting Safe Regions on Commodity Hardware, [code](https://github.com/vusec/memsentry)
-* eXecutable-Only-Memory-Switch (XOM-Switch): Hiding your code from advanced code reuse attacks in one shot, [code](https://github.com/intel/xom-switch)
+* eXecutable-Only-Memory-Switch (XOM-Switch): Hiding your code from advanced code reuse attacks in one shot, [code](https://github.com/intel/xom-switch) 
 * ERIM: Secure, Efficient In-Process Memory Isolation using Intel MPK, [code](https://gitlab.mpi-sws.org/vahldiek/erim)
 * Hodor: Intra-Process Isolation for High-Throughput Data Plane Libraries, [code](https://github.com/hedayati/hodor)
 * libmpk: Software Abstraction for Intel Memory Protection Keys (Intel MPK), [code](https://github.com/sslab-gatech/libmpk)
@@ -21,15 +22,24 @@
 * MPKAlloc: Efficient Heap Meta-Data Integrity Through Hardware Memory Protection Keys, [code](https://github.com/BUseclab/mpkalloc)
 * VIP: Safeguard Value Invariant Property for Thwarting Critical Memory Corruption Attacks, [code](https://github.com/cosmoss-jigu/vip)
 * Simplex: Repurposing Intel Memory Protection Extensions for Secure Storage, [code](https://github.com/bingseclab/simplex)
-* Enclosures: language-based restriction of untrusted libraries, [code](https://github.com/aghosn/enclosures)
+* InversOS: Efficient Control-Flow Protection for
+AArch64 Applications with Privilege Inversion, [code](https://github.com/URSec/InversOS)
+* Framework 
+  * Enclosures: language-based restriction of untrusted libraries, [code](https://github.com/aghosn/enclosures)
+  * uSwitch: Fast Kernel Context Isolation with Implicit Context Switches, [code](https://github.com/rssys/uswitch)
 * CAPACITY: Cryptographically-Authenticated Intra-process Isolation on ARM, [code](https://github.com/sslab-skku/capacity)
-* Put your memory in order: Efficient domain-based memory isolation for WASM applications, [code](https://github.com/PKU-ASAL/PKUWA)
+* Language Runtime Integration
+  * WebAssembly Runtime
+    * Put your memory in order: Efficient domain-based memory isolation for WASM applications, [code](https://github.com/PKU-ASAL/PKUWA)
 * Auditing Frameworks Need Resource Isolation: A Systematic Study on the Super Producer Threat to System Auditing and Its Mitigation, [code](https://github.com/nodropforsecurity/nodrop)
-* Endokernel: A Thread Safe Monitor for Lightweight Subprocess Isolation, [code](https://github.com/endokernel/endokernel-paper-ver)
+* Userspace OS Subsystem
+  * Endokernel: A Thread Safe Monitor for Lightweight Subprocess Isolation, [code](https://github.com/endokernel/endokernel-paper-ver)  * 
 * Toast: A Heterogeneous Memory Management System, [code](https://github.com/TUM-DSE/Toast)
-* Secure Rewind & Discard of Isolated Domains, [code](https://github.com/EricssonResearch/secure-rewind-and-discard)
+* Fault Tolerance
+  * Secure Rewind & Discard of Isolated Domains, [code](https://github.com/EricssonResearch/secure-rewind-and-discard)
 * Serverless
   * Faastlane: Accelerating Function-as-a-Service Workflows, [code](https://github.com/csl-iisc/faastlane)
+  * Rethinking Deployment for Serverless Functions: A Performance-first Perspective, [code](https://github.com/tjulym/Chiron)
 * Mixed-Language Security
   * TRust: A Compilation Framework for In-process Isolation to Protect Safe Rust against Untrusted Code, [code](https://github.com/seccompgeek/trust23-metsafe24)
   * METASAFE: Compiling for Protecting Smart Pointer Metadata to Ensure Safe Rust Integrity, [code](https://github.com/seccompgeek/trust23-metsafe24)
