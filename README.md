@@ -6,6 +6,7 @@
   * ReCFA: Resillent Control-Flow Attestation, [code](https://github.com/suncongxd/ReCFA)
 * Basic Data/Metadata Protection
   * Usage of Intel Memory Protection Keys (MPK) to protect Nginx Private Keys, [code](https://github.com/ChristopherHammond13/Dissertation-Public)
+  * CoMpk : Isolating Data in Private, and Secure Compartments, [code](https://github.com/arulthileeban/CoMpk)
   * No Need to Hide: Protecting Safe Regions on Commodity Hardware, [code](https://github.com/vusec/memsentry)
 * eXecute-Only Memory (XOM)
   * eXecutable-Only-Memory-Switch (XOM-Switch): Hiding your code from advanced code reuse attacks in one shot, [code](https://github.com/intel/xom-switch)
@@ -18,16 +19,15 @@
 * PKU pitfalls: Attacks on PKU-based memory isolation systems, [code](https://github.com/VolSec/pku-pitfalls)
 * Donky: Efficient In-Process Isolation for RISC-V and x86, [code](https://github.com/isec-tugraz/Donky)
 * Jenny: Securing syscalls for PKU-based memory isolation systems, [code](https://github.com/isec-tugraz/Jenny)
-* CoMpk : Isolating Data in Private, and Secure Compartments, [code](https://github.com/arulthileeban/CoMpk)
 * You Shall Not (by)Pass! Practical, Secure, and Fast PKU-based Sandboxing, [code](https://github.com/ku-leuven-msec/The-Cerberus-Project)
 * Multi-Variant Execution
   * Secure and Efficient In-process Monitor (and Library) Protection with Intel MPK, [code](https://github.com/ssrg-vt/MonGuard)
   * sMVX: Multi-Variant Execution on Selected Code Paths, [code](https://github.com/ssrg-vt/sMVX/)
+  * Secure and Efficient Application Monitoring and Replication without Kernel Patches, [code](https://github.com/ReMon-MVEE/ReMon)
 * MPKAlloc: Efficient Heap Meta-Data Integrity Through Hardware Memory Protection Keys, [code](https://github.com/BUseclab/mpkalloc)
 * VIP: Safeguard Value Invariant Property for Thwarting Critical Memory Corruption Attacks, [code](https://github.com/cosmoss-jigu/vip)
 * Simplex: Repurposing Intel Memory Protection Extensions for Secure Storage, [code](https://github.com/bingseclab/simplex)
-* InversOS: Efficient Control-Flow Protection for
-AArch64 Applications with Privilege Inversion, [code](https://github.com/URSec/InversOS)
+* InversOS: Efficient Control-Flow Protection for AArch64 Applications with Privilege Inversion, [code](https://github.com/URSec/InversOS)
 * Framework 
   * Enclosures: language-based restriction of untrusted libraries, [code](https://github.com/aghosn/enclosures)
   * uSwitch: Fast Kernel Context Isolation with Implicit Context Switches, [code](https://github.com/rssys/uswitch)
@@ -59,6 +59,7 @@ AArch64 Applications with Privilege Inversion, [code](https://github.com/URSec/I
     * ctFS: Replacing file indexing with hardware memory translation through contiguous file allocation for persistent memory, [code](https://github.com/robinlee09201/ctFS)
   * Userspace Storage
     * Rearchitecting in-memory object stores for low latency, [code](https://github.com/danyangz/lightning)
+    * [code](https://github.com/TELOS-syslab/Aeolia)
  
 ## Intra-kernel isolation
 
