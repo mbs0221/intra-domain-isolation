@@ -4,9 +4,13 @@
 
 * Control-Flow Attestation
   * ReCFA: Resillent Control-Flow Attestation, [code](https://github.com/suncongxd/ReCFA)
-* Usage of Intel Memory Protection Keys (MPK) to protect Nginx Private Keys, [code](https://github.com/ChristopherHammond13/Dissertation-Public)
-* No Need to Hide: Protecting Safe Regions on Commodity Hardware, [code](https://github.com/vusec/memsentry)
-* eXecutable-Only-Memory-Switch (XOM-Switch): Hiding your code from advanced code reuse attacks in one shot, [code](https://github.com/intel/xom-switch) 
+* Basic Data/Metadata Protection
+  * Usage of Intel Memory Protection Keys (MPK) to protect Nginx Private Keys, [code](https://github.com/ChristopherHammond13/Dissertation-Public)
+  * No Need to Hide: Protecting Safe Regions on Commodity Hardware, [code](https://github.com/vusec/memsentry)
+* eXecute-Only Memory (XOM)
+  * eXecutable-Only-Memory-Switch (XOM-Switch): Hiding your code from advanced code reuse attacks in one shot, [code](https://github.com/intel/xom-switch)
+  * System Call Interposer
+    * Zpoline: a system call hook mechanism based on binary rewriting, [code)(https://github.com/yasukata/zpoline/)
 * ERIM: Secure, Efficient In-Process Memory Isolation using Intel MPK, [code](https://gitlab.mpi-sws.org/vahldiek/erim)
 * Hodor: Intra-Process Isolation for High-Throughput Data Plane Libraries, [code](https://github.com/hedayati/hodor)
 * libmpk: Software Abstraction for Intel Memory Protection Keys (Intel MPK), [code](https://github.com/sslab-gatech/libmpk)
@@ -31,6 +35,7 @@ AArch64 Applications with Privilege Inversion, [code](https://github.com/URSec/I
 * Language Runtime Integration
   * WebAssembly Runtime
     * Put your memory in order: Efficient domain-based memory isolation for WASM applications, [code](https://github.com/PKU-ASAL/PKUWA)
+    * Going beyond the Limits of SFI: Flexible and Secure Hardware-Assisted In-Process Isolation with HFI, [code](https://github.com/PLSysSec/hfi-root)
 * Auditing Frameworks Need Resource Isolation: A Systematic Study on the Super Producer Threat to System Auditing and Its Mitigation, [code](https://github.com/nodropforsecurity/nodrop)
 * Userspace OS Subsystem
   * Endokernel: A Thread Safe Monitor for Lightweight Subprocess Isolation, [code](https://github.com/endokernel/endokernel-paper-ver)  * 
