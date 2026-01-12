@@ -13,6 +13,7 @@
 * PKU pitfalls: Attacks on PKU-based memory isolation systems, [code](https://github.com/VolSec/pku-pitfalls)
 * Donky: Efficient In-Process Isolation for RISC-V and x86, [code](https://github.com/isec-tugraz/Donky)
 * Jenny: Securing syscalls for PKU-based memory isolation systems, [code](https://github.com/isec-tugraz/Jenny)
+* CoMpk : Isolating Data in Private, and Secure Compartments, [code](https://github.com/arulthileeban/CoMpk)
 * You Shall Not (by)Pass! Practical, Secure, and Fast PKU-based Sandboxing, [code](https://github.com/ku-leuven-msec/The-Cerberus-Project)
 * Multi-Variant Execution
   * Secure and Efficient In-process Monitor (and Library) Protection with Intel MPK, [code](https://github.com/ssrg-vt/MonGuard)
