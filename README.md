@@ -78,8 +78,13 @@
 
 ## Intra-unikernel isolation
 
-* uIO: Lightweight and Extensible Unikernels, [code](https://github.com/TUM-DSE/uio)
-* Unishyper: A Rust-based Unikernel Enhancing Reliability and Efficiency of Embedded Systems, [code](https://github.com/hky1999/Unishyper)
-* FlexOS: Towards Flexible OS Isolation, [code](https://github.com/project-flexos/asplos22-ae)
-* CubicleOS: A Library OS with Software Componentisation for Practical Isolation, [code](https://github.com/lsds/CubicleOS)
 * Intra-Unikernel Isolation with Intel Memory Protection Keys, [code](https://github.com/ssrg-vt/libhermitMPK)
+* AlloyStack: A Library Operating System for Serverless Workflow Applications, [code](https://github.com/tanksys/AlloyStack)
+* Unishyper: A Rust-based Unikernel Enhancing Reliability and Efficiency of Embedded Systems, [code](https://github.com/hky1999/Unishyper)
+* Intra-Unikraft Isolation
+  * CubicleOS: A Library OS with Software Componentisation for Practical Isolation, [code](https://github.com/lsds/CubicleOS)
+  * FlexOS: Towards Flexible OS Isolation, [code](https://github.com/project-flexos/asplos22-ae)
+  * uIO: Lightweight and Extensible Unikernels, [code](https://github.com/TUM-DSE/uio)
+  * SURE: Secure Unikernels Make Serverless Computing Rapid and Efficient, [code](https://github.com/ucr-serverless/sure)
+  * Reboot-Based Recovery of Unikernels at the Component Level, [code](https://zenodo.org/records/10784506)
+  * MorphOS: An Extensible Networked Operating System, [code](https://github.com/TUM-DSE/MorphOS)
