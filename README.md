@@ -37,6 +37,7 @@
   * WebAssembly Runtime
     * Put your memory in order: Efficient domain-based memory isolation for WASM applications, [code](https://github.com/PKU-ASAL/PKUWA)
     * Going beyond the Limits of SFI: Flexible and Secure Hardware-Assisted In-Process Isolation with HFI, [code](https://github.com/PLSysSec/hfi-root)
+    * Swivel: Hardening WebAssembly against Spectre, [code](https://github.com/PLSysSec/swivel)
 * Auditing Frameworks Need Resource Isolation: A Systematic Study on the Super Producer Threat to System Auditing and Its Mitigation, [code](https://github.com/nodropforsecurity/nodrop)
 * Userspace OS Subsystem
   * Endokernel: A Thread Safe Monitor for Lightweight Subprocess Isolation, [code](https://github.com/endokernel/endokernel-paper-ver)
