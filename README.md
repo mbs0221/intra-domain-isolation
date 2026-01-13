@@ -38,6 +38,7 @@
     * Put your memory in order: Efficient domain-based memory isolation for WASM applications, [code](https://github.com/PKU-ASAL/PKUWA)
     * Going beyond the Limits of SFI: Flexible and Secure Hardware-Assisted In-Process Isolation with HFI, [code](https://github.com/PLSysSec/hfi-root)
     * Swivel: Hardening WebAssembly against Spectre, [code](https://github.com/PLSysSec/swivel)
+    * Cage: Hardware-Accelerated Safe WebAssembly, [code](https://doi.org/10.5281/zenodo.13772996)
 * Auditing Frameworks Need Resource Isolation: A Systematic Study on the Super Producer Threat to System Auditing and Its Mitigation, [code](https://github.com/nodropforsecurity/nodrop)
 * Userspace OS Subsystem
   * Endokernel: A Thread Safe Monitor for Lightweight Subprocess Isolation, [code](https://github.com/endokernel/endokernel-paper-ver)
@@ -59,25 +60,30 @@
     * TENET: Memory Safe and Fault Tolerant Persistent Transactional Memory, [code](https://github.com/cosmoss-jigu/TENET)
   * File Systems
     * ctFS: Replacing file indexing with hardware memory translation through contiguous file allocation for persistent memory, [code](https://github.com/robinlee09201/ctFS)
+    * MPFS: A Scalable User-Space Persistent Memory File System for Multiple Processes, [code](https://github.com/BOGEDABUDA/MPFS)
+    * Overcoming the Last Mile between Log-Structured File Systems and Persistent Memory via Scater Logging, [code](https://github.com/HIT-HSSL/slotfs-eurosys)
   * Userspace Storage
     * Rearchitecting in-memory object stores for low latency, [code](https://github.com/danyangz/lightning)
-    * [code](https://github.com/TELOS-syslab/Aeolia)
+    * Aeolia: Fast and Secure Userspace Interrupt-Based Storage Stack, [code](https://github.com/TELOS-syslab/Aeolia)
  
-## Intra-kernel isolation
+## Intra-Kernel isolation
 
 * Basic Data/Metadata Protection
   * Fast Intra-Kernel Isolation and Security with IskiOS, [code](https://github.com/URSec/iskios)
 * Kernel compartmentalization
   * Preventing Kernel Hacks with HAKCs, [code](https://github.com/mit-ll/HAKC)
   * BULKHEAD: Secure, Scalable, and Efficient Kernel Compartmentalization with PKS, [code](https://github.com/gyg128/BULKHEAD/)
+  * Erebor: A Drop-In Sandbox Solution for Private Data Processing in Untrusted Confidential Virtual Machines, [code](https://github.com/ASTERISC-Release/Erebor), [zenodo](https://doi.org/10.5281/zenodo.14943102)
 * Kernel Extension & eBPF Security
   * MOAT: Towards Safe BPF Kernel Extension, [code](https://github.com/jwnhy/MOAT-Open)
 
-## Intra-enclave isolation
+## Intra-Enclave/CVM isolation
 
 * SGXJail: Defeating Enclave Malware via Confinement, [code](https://github.com/isec-tugraz/sgxjail)
+* SGXLock: Towards Efficiently Establishing Mutual Distrust Between Host Application and Enclave for SGX, [code](https://github.com/blocksecteam/sgxlock)
+* More Granular, Less Trust: Enforcing Intra-Process Isolation With Arm CCA in an Untrusted Management Environment, [code](https://github.com/erhade/CCAegis)
 
-## Intra-unikernel isolation
+## Intra-Unikernel isolation
 
 * Intra-Unikernel Isolation with Intel Memory Protection Keys, [code](https://github.com/ssrg-vt/libhermitMPK)
 * AlloyStack: A Library Operating System for Serverless Workflow Applications, [code](https://github.com/tanksys/AlloyStack)
