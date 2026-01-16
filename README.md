@@ -4,6 +4,7 @@
 
 * Control-Flow Attestation
   * ReCFA: Resillent Control-Flow Attestation, [code](https://github.com/suncongxd/ReCFA)
+* Stand Alone Provenance Tracking Runtime and Compiler Passes, [code](https://github.com/securesystemslab/ia2-provsan)
 * Basic Data/Metadata Protection
   * Usage of Intel Memory Protection Keys (MPK) to protect Nginx Private Keys, [code](https://github.com/ChristopherHammond13/Dissertation-Public)
   * CoMpk : Isolating Data in Private, and Secure Compartments, [code](https://github.com/arulthileeban/CoMpk)
@@ -46,7 +47,7 @@
   * Pegasus: Transparent and Unified Kernel-Bypass Networking for Fast Local and Remote Communication, [code](https://github.com/rssys/pegasus-artifact)
 * Toast: A Heterogeneous Memory Management System, [code](https://github.com/TUM-DSE/Toast)
 * Fault Tolerance
-  * Secure Rewind & Discard of Isolated Domains, [code](https://github.com/EricssonResearch/secure-rewind-and-discard)
+  * Rewind & Discard: Improving Software Resilience using Isolated Domains, [code](https://github.com/EricssonResearch/secure-rewind-and-discard)
 * Serverless
   * Faastlane: Accelerating Function-as-a-Service Workflows, [code](https://github.com/csl-iisc/faastlane)
   * Rethinking Deployment for Serverless Functions: A Performance-first Perspective, [code](https://github.com/tjulym/Chiron)
