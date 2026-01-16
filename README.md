@@ -11,7 +11,8 @@
 * eXecute-Only Memory (XOM)
   * eXecutable-Only-Memory-Switch (XOM-Switch): Hiding your code from advanced code reuse attacks in one shot, [code](https://github.com/intel/xom-switch)
   * System Call Interposer
-    * Zpoline: a system call hook mechanism based on binary rewriting, [code](https://github.com/yasukata/zpoline/)
+    * Zpoline: a system call hook mechanism based on binary rewriting, [code](https://github.com/yasukata/zpoline)
+    * System Call Interposition Without Compromise, [code](https://github.com/lazypoline/lazypoline)
 * ERIM: Secure, Efficient In-Process Memory Isolation using Intel MPK, [code](https://gitlab.mpi-sws.org/vahldiek/erim)
 * Hodor: Intra-Process Isolation for High-Throughput Data Plane Libraries, [code](https://github.com/hedayati/hodor)
 * libmpk: Software Abstraction for Intel Memory Protection Keys (Intel MPK), [code](https://github.com/sslab-gatech/libmpk)
