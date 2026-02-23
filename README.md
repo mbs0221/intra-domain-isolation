@@ -76,6 +76,7 @@
   * Preventing Kernel Hacks with HAKCs, [code](https://github.com/mit-ll/HAKC)
   * BULKHEAD: Secure, Scalable, and Efficient Kernel Compartmentalization with PKS, [code](https://github.com/gyg128/BULKHEAD/)
   * Erebor: A Drop-In Sandbox Solution for Private Data Processing in Untrusted Confidential Virtual Machines, [code](https://github.com/ASTERISC-Release/Erebor), [zenodo](https://doi.org/10.5281/zenodo.14943102)
+  * GENESIS: A Generalizable, Efficient, and Secure Intra-kernel Privilege Separation, [code](https://github.com/KAIST-CysecLab/GENESIS)
 * Kernel Extension & eBPF Security
   * MOAT: Towards Safe BPF Kernel Extension, [code](https://github.com/jwnhy/MOAT-Open)
 
