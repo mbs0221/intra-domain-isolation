@@ -17,6 +17,8 @@
 * ERIM: Secure, Efficient In-Process Memory Isolation using Intel MPK, [code](https://gitlab.mpi-sws.org/vahldiek/erim)
 * Hodor: Intra-Process Isolation for High-Throughput Data Plane Libraries, [code](https://github.com/hedayati/hodor)
 * libmpk: Software Abstraction for Intel Memory Protection Keys (Intel MPK), [code](https://github.com/sslab-gatech/libmpk)
+* libppkey: In-Process Memory Isolation for Modern Linux Systems, [code](https://github.com/chakshutandon/mm_ppkeys_bench)
+* Guaranteeing Mutual Exclusion in Transactional Systems, [code](https://github.com/chakshutandon/tsx_mpk)
 * ConfLLVM: A compiler for enforcing data confidentiality in low-level code, [code](https://github.com/TrustedCloud/ConfLLVM)
 * PKU pitfalls: Attacks on PKU-based memory isolation systems, [code](https://github.com/VolSec/pku-pitfalls)
 * Donky: Efficient In-Process Isolation for RISC-V and x86, [code](https://github.com/isec-tugraz/Donky)
